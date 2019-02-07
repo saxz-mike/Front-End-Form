@@ -1,0 +1,263 @@
+#exampleForm2{
+    width:20vw;
+}
+.row{
+    padding:0px;
+}
+.lbl{
+    background-color: #56cdf8;
+}
+
+.PerformanceCell {
+        width: 200px;
+        margin-left:-10px;
+        max-width: 300px;
+        display:block;
+    }
+    .eCell{
+        width:100px;
+        display:block;
+       
+    }
+    .PerformanceCell2 {
+        width: 100%;
+        margin-left:0px;
+        display:block;
+    }
+    .eCell2{
+        width:20vw;
+        display:block;
+      
+       
+    }
+.left{
+    text-align: left;
+    text-decoration-line: underline;
+}
+input[type="text"] {
+    color: black;
+    border:none;
+    width: 100%;
+    margin: 0;
+     padding: 0; 
+     border: 0;
+    display: block;   
+    font-weight: normal;
+    background: transparent;
+    box-sizing: border-box;
+    resize: vertical;
+}
+input[type="text"] + label[for^=loanno] {
+    color: #ffffff;
+    font-weight: bold;
+    background: transparent;
+}
+div.table 
+{
+    display:table;
+    width:99%;
+    height:99%;
+    margin:auto;
+    padding:5px;
+}
+form.tr, div.tr
+{
+    display:table-row;
+}
+span.td
+{
+    display:table-cell;
+    text-align: left;
+    border: solid rgb(114, 113, 113) 2px;
+    color:black;
+    padding-left:0px;
+    width:16.5vw;
+    border-width:0.5px 0.5px;
+    
+}
+span.tdl
+{
+    display:table-cell;
+    text-align: center;
+    color:black;
+    padding-left:0px;
+    border-width:0.5px 0.5px;
+
+    
+}
+.paddinginput{
+    padding: 2vh 8px;
+
+}
+span.td>.tdl input{
+    width: 100%;
+    margin: 0; 
+    padding: 0 auto; border: 0;
+    display: block;
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+    
+  }
+span.td input{
+  width:100%;
+  text-align: center;
+  -webkit-column-span: all; /* Chrome, Safari, Opera */
+  column-span: all;
+  
+}
+.do{
+
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+    
+}
+span.td2
+{
+    display:table-cell;
+    text-align: left;
+    border: solid rgb(114, 113, 113) 0.5px;
+    color:black;
+    padding-left:0px;
+    border-width:0.5px 0.5px;
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+    
+}
+
+span.td2 input{
+  width:100%;
+  text-align: center;
+  
+}
+span.td3
+{
+    display:table-cell;
+    text-align: left;
+    border: solid rgb(114, 113, 113) 0.5px;
+    color:black;
+    padding-left:0px;
+    border-width:0.5px 0.5px;
+    
+}
+span.td3 input{
+  width:100%;
+  padding:0 0;
+  text-align: center;
+  
+}
+span.td32
+{
+    display:table-cell;
+    text-align: center;
+    border-right: solid rgb(114, 113, 113) 0.5px;
+    color:black;
+    padding-left:0px;
+    border-width:0.5px 0.5px;
+    
+}
+span.td32 input{
+  width:100%;
+  text-align: center;
+  padding:2.5vh 8px;
+  
+}
+.md-form input[type="text"]:focus:not([readonly]) + label[for^=loanno] {
+    color: #ffffff;
+    font-weight: bold;
+    background: transparent;
+
+}
+.card.card-cascade .view.view-cascade.gradient-card-header{
+    padding:1rem 0.6rem;
+}
+.md-form .form-control {
+    color:#ffffff;
+}
+.loanno {
+    color: #fff;
+    }
+@media (min-width: 300px) { 
+
+    .loanfrm{
+    margin-top:3vh;
+    width:90vw;
+    margin-left:auto;
+    margin-right:auto;
+    }
+    .eCell2{
+        width:50vw;
+        display:block;
+      
+       
+    }
+    
+    
+    
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+.loanfrm{
+margin-top:5vh;
+width:90vw;
+margin-left:auto;
+margin-right:auto;
+}
+.eCell2{
+    width:50vw;
+    display:block;
+  
+   
+}
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+.loanfrm{
+margin-top:2vh;
+width:80vw;
+margin-left:auto;
+margin-right:auto;
+}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+.loanfrm{
+margin-top:2vh;
+width:70vw;
+margin-left:auto;
+margin-right:auto;
+}
+.card-header-title{
+    padding-top:10vh;
+
+
+}
+.loanno{
+    margin-left:0px;
+    widows: 70px;
+    float: right;
+    margin-top:0px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+.loanfrm{
+margin-top:5vh;
+width:70vw;
+margin-left:auto;
+margin-right:auto;
+}
+.loanno{
+    width:auto;
+    max-width: 120px;
+    float: right;
+    margin-top:0px;
+}
+}
+}
