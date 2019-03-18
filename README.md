@@ -1,7 +1,5 @@
-# Required  Softwares To run this form
-1.Google Chrome
+# simple html form for an actual Loan requesting form
+uses columns and rows 
+embeds input on these turples.
 
-Steps:
-1. clone this repo
-2. Open the folder on your desktop
-3. run the index.html file
+#material design-md******
